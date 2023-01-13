@@ -1,8 +1,8 @@
 from flask import *
 import mysql.connector
 
-
-conn = mysql.connector.connect(host="localhost",password="7899",user="root",database="hospital")
+#connect your Database with your PASSWORD
+conn = mysql.connector.connect(host="localhost",password="",user="root",database="hospital")
 cursor= conn.cursor()
 
 
